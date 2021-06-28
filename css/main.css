@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 14px;
+}
+
+body {
+    margin: 0;
+    font-family: 'Be Vietnam', sans-serif;
+    color: #242D52;
+
+}
+/* Umumiy stillar */
+
+.container {
+    max-width: 1130px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    padding: 12px 32px;
+    border: none;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 18px;
+    color: #fff;
+    background:#F3603C;
+    border-radius: 22px;
+    cursor: pointer;
+    transition: opacity 500ms ease;
+}
+
+.btn:hover {
+    opacity: 0.7;
+}
+
+.main-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 18px 0;
+    background-color: #fff;
+    z-index: 99;
+}
+
+.main-header .row {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-nav-link {
+    position: relative;
+    display: inline-block;
+    margin: 0 15px;
+    color: #242D52;
+    font-size: 13px;
+}
+
+.main-nav-link:hover {
+    
+    color: #242D52;
+    opacity: 0.5;
+    transition: transform 300ms ease-in-out;
+}
+
+.main-nav-link:hover:after {
+    transform: scaleX(1);
+}
+
+/* Intro */
+
+.intro {
+    position: relative;
+    padding-top: 181px; 
+   
+   
+}
+
+.intro:after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: -65px;
+    left:650px;
+    height: 969.9999833991571px;
+    width: 435.9999925381778px;
+    z-index: -1;
+    background-image: url('../img/headbg.png');
+    background-repeat: no-repeat;
+    background-position:380px;
+    
+    
+}
+ 
+
+.intro .container{
+    display: flex;
+    justify-content: space-between;
+}
+.main-title{
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: -1px;
+    text-align: left;
+    width: 445px;
+    margin:0;
+    padding-bottom:16px;
+    margin-right:125px;
+
+}
+.page-text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    width: 350px;
+    padding-bottom:40px;
+    color: #9597A5;
+}
+
+.photo1 {
+   
+    padding-right:20px;
+    border-radius: 4px;
+        
+}
+
+
+.image{
+    align-items: center;
+    display: flex;
+    
+    padding-top:15px;
+    margin:0 auto;
+  
+}
+
+/* section second */
+.different{
+    padding-top:132px;
+   
+}
+
+.page-title{ 
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: -0.7142857313156128px;
+    text-align: left;
+    width: 445px;
+    margin:0;
+    
+
+}
+.order-title{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: -0.2857142984867096px;
+    text-align: left;
+
+}
+.list-items{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    padding-bottom:19px;
+    color: #9597A5;
+    padding-bottom:46px;
+    margin-left:212px;
+}
+
+.number{
+    
+    border-radius: 39px;
+    background: #F3603C;
+    padding:6px 23px;
+    margin-right:28px;
+    margin-left:118px;
+}
+
+
+
+
+
