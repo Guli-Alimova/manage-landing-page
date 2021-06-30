@@ -11,18 +11,27 @@
 body {
     margin: 0;
     font-family: 'Be Vietnam', sans-serif;
-    color: #242D52;
-
+    color: #242D52; 
+    background-color: #F2F2F2;
+    background-image: url(../img/headbg.png), url(../img/Rectangle\ Copy\ 12.png);
+    background-repeat: no-repeat;
+    background-position-x: 563px,-156px;
+    background-position-y: 0, 1044px; 
+    
+   
 }
+
+    
 /* Umumiy stillar */
 
 .container {
-    max-width: 1130px;
+    max-width: 1110px;
     margin: 0 auto;
 }
 
 .row {
     display: flex;
+    
 }
 
 a {
@@ -47,11 +56,10 @@ a {
 }
 
 .main-header {
-    position: fixed;
+   
     top: 0;
     width: 100%;
     padding: 18px 0;
-    background-color: #fff;
     z-index: 99;
 }
 
@@ -77,55 +85,41 @@ a {
 
 .main-nav-link:hover:after {
     transform: scaleX(1);
+
+}
+.column3{
+    width: 33.3%;
 }
 
 /* Intro */
 
 .intro {
     position: relative;
-    padding-top: 181px; 
-   
-   
+    padding-top: 134px; 
+  
+    
 }
 
-.intro:after {
-    content: '';
-    position: absolute;
-    right: 0;
-    top: -65px;
-    left:650px;
-    height: 969.9999833991571px;
-    width: 435.9999925381778px;
-    z-index: -1;
-    background-image: url('../img/headbg.png');
-    background-repeat: no-repeat;
-    background-position:380px;
-    
-    
-}
- 
 
 .intro .container{
     display: flex;
     justify-content: space-between;
+   
 }
 .main-title{
     font-size: 56px;
     font-weight: 700;
     line-height: 64px;
     letter-spacing: -1px;
-    text-align: left;
     width: 445px;
-    margin:0;
     padding-bottom:16px;
-    margin-right:110px;
+ 
 
 }
 .page-text{
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
-    text-align: left;
     width: 350px;
     padding-bottom:40px;
     color: #9597A5;
@@ -135,6 +129,7 @@ a {
    
     padding-right:20px;
     border-radius: 4px;
+    width: 260px;
         
 }
 
@@ -142,16 +137,17 @@ a {
 .image{
     align-items: center;
     display: flex;
-    
     padding-top:15px;
     margin:0 auto;
+    width: 260px;
   
 }
 
 /* section second */
 .different{
     padding-top:132px;
-   
+    
+    
 }
 
 .page-title{ 
@@ -165,23 +161,24 @@ a {
     
 
 }
+
 .order-title{
     font-size: 16px;
     font-weight: 700;
     line-height: 23px;
     letter-spacing: -0.2857142984867096px;
-    text-align: left;
+   
+ 
 
 }
 .list-items{
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
-    text-align: left;
-    padding-bottom:19px;
     color: #9597A5;
     padding-bottom:46px;
-    margin-left:212px;
+    margin-left:221px;
+    width: 445px;
 }
 
 .number{
@@ -190,9 +187,201 @@ a {
     background: #F3603C;
     padding:6px 23px;
     margin-right:28px;
-    margin-left:113px;
+    color: white;
+    margin-left:125px;
+    
+}
+/* ==========================
+  section3
+==========================*/
+.comment{
+    max-width: none; 
+    overflow-x: hidden;
+   
+   
+}
+.comment .row{
+    display: flex;
+    justify-content:  center;
+}
+.said{
+    
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: -0.7142857313156128px;
+    text-align: center;
+    padding-bottom:64px;
+    max-width: none;
+    overflow-x: hidden;
+
+
+}
+.profile{
+    top:-36px;
+    left: 235px;
+    position: absolute;
+    border-radius: 50%;
+    text-align: center;
+}
+.comment .column3{
+  
+    width: 540px;
+    background-color: #FAFAFA;
+    margin-right:30px;
+    position: relative;
+    text-align: center;
+    padding:40px;
+    margin-bottom:60px;
+    background-color: #FAFAFA;
+    
+
+}
+.name{
+   padding-top:-36px; 
+   font-size: 16px;
+   font-weight: 700;
+   line-height: 23px;
+   letter-spacing: -0.2857142984867096px;
 }
 
+.mind{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    width: 460px;
+    color: #242D52;
+    opacity: 0.5;
+    
+}
+.button-start{
+    display: flex;
+    justify-content: center;
+}
+/* =======================
+  section4
+=========================*/
+
+.simplify{
+    margin-top:180px;
+    padding:62px 165px 62px 165px;
+    background-image:url(../img/Rectangle\ Copy\ 19.jpg);
+    background-size: cover;
+    background-position:content;
+   
+   
+
+}
+.team{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 44px; 
+    width: 445px;
+    color:white;
+    text-align: left;
+    display: flex;
+    margin:0;
+  
+
+}
+.get{
+   
+    font-size: 13px;
+    font-weight: 700;
+    padding:13px 32px 13px 32px;
+    color: #F3603C;
+    border-radius: 22px;
+    border:1px solid;
+
+    
+
+}
+.simplify .row{
+    justify-content: space-between;
+    align-items: center;
+}
+.get:hover{
+    background-color: white;
+    opacity: 0.5;
+}
+
+/* ======================
+  foooter
+========================== */
+
+.main-footer{
+    padding-top:65px;
+    padding-bottom:62px;
+    background-color:#1D1E25;
+
+}
+.footer-icon{
+    margin-bottom:85px;
+}
+
+.fab{
+    margin-right:14px;
+    width: 20px;
+    color: white;
+}
+.main-footer .row{
+    justify-content: space-between;
+}
+.footer-links{
+    margin:0;
+     
+
+}
+.footer-menu{
+    color: white;
+}
+.link-list{
+    margin-bottom:13px;
+    
+}
+.mail{
+    width: 200px;
+    padding:14px 41px 14px 16px;
+    border-radius: 22px;
+    border:1px solid;
+    color:#8D8D8D;
+    margin-right:8px;
+    margin-bottom:60px;
+}
+.btn-go{
+    padding:13px 25px;
+    border-radius: 22px;
+    border:1px solid #F3603C;
+    background-color: #F3603C;
+    color:#FCF6F5;
+    transition: 0.07s;
+
+}
+.reserved{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 19px;
+    color: white;
+    text-align: right;
+
+}
+.fab:hover{
+    color:#F3603C;
+}
+.footer-menu:hover{
+    color:#F3603C;
+
+}
+.btn-go:hover{
+    background: #F98F75;
+    
+    
+
+}
+.mail:hover{
+    border-color:#F33C3C ;
+}
 
 
 
