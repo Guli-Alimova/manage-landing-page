@@ -90,6 +90,9 @@ a {
 .column3{
     width: 33.3%;
 }
+.main-toggle{
+    display: none;
+}
 
 /* Intro */
 
