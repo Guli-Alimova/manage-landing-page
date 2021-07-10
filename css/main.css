@@ -130,7 +130,7 @@ a {
 
 .photo1 {
    
-    padding-right:20px;
+    margin-right:10px;
     border-radius: 4px;
     width: 260px;
         
@@ -268,7 +268,7 @@ a {
 
 .simplify{
     margin-top:180px;
-    padding:62px 165px 62px 165px;
+    padding:62px 0 ;
     background-image:url(../img/Rectangle\ Copy\ 19.jpg);
     background-size: cover;
     background-position:content;
