@@ -13,12 +13,13 @@
 </head>
 
 <body>
-    <header class="main-header">
+    <header id="main-header" class="main-header">
         <div class="container">
             <div class="row">
                 <a href="#" class="logo"><img class="logo1" src="./img/logo.svg" alt="Manage-logo"></a>
-                <button class="main-toggle"><img src="./img/Group.svg" alt="toggle"></button>
-                <nav class="main-nav">
+                <button class="main-toggle open" onclick="openMenu()"><img src="./img/Group.svg" alt="toggle"></button>
+                <button class="main-toggle close" onclick="closeMenu()"><img src="./img/close.svg" alt=""></button>
+                <nav id="mainnav" class="main-nav">
                     
                     <a href="#" class="main-nav-link">Pricing</a>
                     <a href="#" class="main-nav-link">Product</a>
@@ -26,7 +27,7 @@
                     <a href="#" class="main-nav-link">Careers</a>
                     <a href="#" class="main-nav-link">Community</a>
                 </nav>
-                <button type="button" class="btn">Get Started</button>
+                <button type="button" class="btn" >Get Started</button>
             </div>
         </div>
     </header>
@@ -133,7 +134,7 @@
 
         </div>
         <div class="button-start">
-            <button type="button" class="btn">Get Started</button>
+            <button type="button" class="btn"  >Get Started</button>
         </div>
 
 
@@ -147,7 +148,7 @@
         <div class="container">
             <div class="row">
                 <h2 class="team">Simplify how your team works today.</h2>
-                <button type="button" class="get">Get Started</button>
+                <button type="button" class="get" >Get Started</button>
             </div>
 
         </div>
@@ -182,8 +183,8 @@
                         <ol class="link-list"><a class="footer-menu" href="Products">Products</a></ol>
                         <ol class="link-list"><a class="footer-menu" href="About Us">About Us</a></ol>
                     </ul>
-                </div>
-                <div class="column4 flink">
+               
+                
                     <ul class="footer-links ">
                         <ol class="link-list"><a class="footer-menu" href="Careers">Careers</a></ol>
                         <ol class="link-list"><a class="footer-menu" href="Community">Community</a></ol>
@@ -192,12 +193,42 @@
                 </div>
                 <div class="column4 email">
                     <input class="mail" type="text" id="name" name="mail" placeholder="Updates in your inbox…">
-                    <button class=btn-go>Go</button>
+                    <button class=btn-go  >Go</button>
                     <p class="reserved"> Copyright 2020. All Rights Reserved</p>
                 </div>
             </div>
         </div>
     </footer>
+ <!-- End Request Invite Modal  -->
+
+ <script>
+
+    const menu = document.getElementById('mainnav');
+    const header = document.getElementById('mainHeader');
+
+    function openMenu() {
+        menu.style.display = 'block';
+        header.classList = 'main-header on';
+    }
+
+    function closeMenu() {
+        menu.style.display = 'none';
+        header.classList = 'main-header';
+    }
+
+    const modal = document.getElementById('requestModal');
+
+    function openModal() {
+        modal.style.display = 'block';
+    }
+
+    function closeModal() {
+        modal.style.display = 'none';
+    }
+
+</script>
+
+
 </body>
 
 </html>
